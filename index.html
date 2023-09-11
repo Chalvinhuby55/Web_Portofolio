@@ -10,7 +10,8 @@
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     
-    
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
 
@@ -34,7 +35,7 @@
               <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#gallery">Gallery</a>
+              <a class="nav-link" href="#gallery">Project</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
@@ -47,7 +48,7 @@
     <!--  Navbar End-->
     <!-- Jumbotron Start -->
     <section class="jumbotron text-center">
-      <img src="img/foto.png" alt="Chalvin Jemi Huby" widht="50" class="rounded-circle  img-thumnail" />
+      <img src="img/foto.png" alt="Chalvin Jemi Huby" widht="50" style="" class="rounded-circle  img-thumnail"  />
       <h1 class="display-4">Chalvin Jemi Huby</h1>
       <p class="lead">I am a student</p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -68,10 +69,10 @@
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-4 mb-4">
+          <div class="col-4 mb-4"data-aos="fade-right"data-aos-duration="1000">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem sit, eius et aliquid assumenda quo sed ad a culpa? Vero.</p>
           </div>
-          <div class="col-4 mb-4">
+          <div class="col-4 mb-4" data-aos="fade-left" data-aos-duration="1000"data-aos-delay="2000">
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora consectetur, delectus facilis atque repudiandae totam dolores ex vel veniam commodi, provident iure, vero ab adipisci.</p>
           </div>
         </div>
@@ -86,34 +87,34 @@
     </section>
     <!-- About End -->
 
-    <!-- Gallery Start -->
+    <!-- Project Start -->
     <section id="gallery">
       <div class="container">
         <div class="row text-center mb-3">
           <div class="col">
-            <h2>My Gallery</h2>
+            <h2>My Project</h2>
           </div>
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/gallery/1 (1).jpg" class="card-img-top" alt="Gallery 1" />
+            <div class="card"data-aos="flip-left"data-aos-duration="500">
+              <img src="img/key1.jpg" class="card-img-top" alt="Gallery 1" />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3" data-aos-duration="500" data-aos-delay="100">
+            <div class="card"data-aos="flip-left">
+              <img src="img/key2.jpg" class="card-img-top" alt="Gallery 1" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/gallery/4.jpg" class="card-img-top" alt="Gallery 1" />
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/gallery/5.jpg" class="card-img-top" alt="Gallery 1" />
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="200" >
+              <img src="img/key3.jpg" class="card-img-top" alt="Gallery 1" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
@@ -129,7 +130,72 @@
         ></path>
       </svg>
     </section>
-    <!-- Gallery End -->
+    <!-- Project End -->
+    <!-- Gallery Start-->
+
+    <section id="gallery">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Gallery</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/1 (1).jpg" alt="foto1" class="img-fluid" gallery-img/>
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/3.jpg" alt="foto1" class="img-fluid" gallery-img/>
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/4.jpg" alt="foto1" class="img-fluid" gallery-img/>
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/5.jpg" alt="foto1" class="img-fluid" gallery-img/>
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/2.jpg" alt="foto1" class="img-fluid" gallery-img/>
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/6.jpg" alt="foto1" class="img-fluid" gallery-img/>
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/8.jpg" alt="foto1" class="img-fluid" gallery-img/>
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/7.jpg" alt="foto1" class="img-fluid" gallery-img/>
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/9.jpg" alt="foto1" class="img-fluid" gallery-img/>
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/10.jpg" alt="foto1" class="img-fluid" gallery-img/>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Gallery End-->
+
     <!-- Contact Start -->
     <section id="contact">
       <div class="container">
@@ -170,41 +236,51 @@
 
     <!-- Contact End -->
     <!-- Footer Start -->
-       <footer class="bg-primary text-white text-center py-5">
+       <footer class="bg-primary text-white text-center py-3">
         <p>Create with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://www.instagram.com/" class="text-white fw-bold">Chalvin Jemi Huby</a></p>
        </footer>
 
     <!-- Footer End -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script>
-      const scriptURL = 'https://script.google.com/macros/s/AKfycbzILUJIUjJUPs0TYeAw9Z9Q4NmSsw_u_gxKdby_6XIKfZaPK37J1EOFwuHcJVVmq2nsCQ/exec'
-      const form = document.forms['portfolio-contact-form']
-      const btnKirim = document.querySelector('.btn-kirim');
-      const btnLoading = document.querySelector('.btn-loading');
-      const myAlert = document.querySelector('.my-alert');
+    
 
-      form.addEventListener('submit', e => {
-        e.preventDefault()
-        // ketika tombol submit diklik
-        // tampilkan tombol loading, hilangkan tombol kirim
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init({
+      once: true,
+    });
+    </script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzILUJIUjJUPs0TYeAw9Z9Q4NmSsw_u_gxKdby_6XIKfZaPK37J1EOFwuHcJVVmq2nsCQ/exec'
+  const form = document.forms['portfolio-contact-form']
+  const btnKirim = document.querySelector('.btn-kirim');
+  const btnLoading = document.querySelector('.btn-loading');
+  const myAlert = document.querySelector('.my-alert');
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    // ketika tombol submit diklik
+    // tampilkan tombol loading, hilangkan tombol kirim
+    btnLoading.classList.toggle('d-none');
+    btnKirim.classList.toggle('d-none');
+
+
+
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => { 
+         // tampilkan tombol kirim, hilangkan tombol loading
         btnLoading.classList.toggle('d-none');
         btnKirim.classList.toggle('d-none');
-
-
-
-        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-          .then(response => { 
-             // tampilkan tombol kirim, hilangkan tombol loading
-            btnLoading.classList.toggle('d-none');
-            btnKirim.classList.toggle('d-none');
-            // tampilkan alert
-            myAlert.classList.toggle('d-none');
-            // reset formnya
-            form.reset();
-            console.log('Success!', response)})
-          .catch(error => console.error('Error!', error.message))
-      })
+        // tampilkan alert
+        myAlert.classList.toggle('d-none');
+        // reset formnya
+        form.reset();
+        console.log('Success!', response)})
+      .catch(error => console.error('Error!', error.message))
+  })
     </script>
   </body>
 </html>
